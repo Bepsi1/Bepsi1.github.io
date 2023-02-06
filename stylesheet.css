@@ -46,10 +46,20 @@ h1{
 }
 .table #gsu{
     font-size:30px;
+    color:black;
 }
+
+.table #gsu:hover{
+    background-color:white;
+    filter:invert(100%);
+}
+
 .table table{
     font-size:75px;
     width:100%;
+}
+.table table a:hover{
+    background-color:darkgreen;
 }
 
 #Hobby {
@@ -72,4 +82,17 @@ h1{
     left:0%;
 }
 
+#quote{
+    position:absolute;
+    top:130%;
+    font-size:30px;
+    margin-left:20px;
+}
+
+#education{
+    position:absolute;
+    top:140%;
+    font-size:30px;
+    left:25%;
+}
 
